@@ -6,7 +6,7 @@ const newTodoText = ref('')
 const isLoading = ref(false)
 const error = ref(null)
 
-const API_URL = 'https://my-todo-list-app-mevn.onrender.com'
+const API_URL = 'https://my-todo-list-app-mevn.onrender.com/api/todos'
 
 async function fetchTodos() {
   // ... (fetchTodos 方法保持不变)
