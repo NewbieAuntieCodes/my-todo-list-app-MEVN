@@ -14,7 +14,7 @@ const app = express();
 // CORS 和 express.json 中间件保持不变
 app.use(
   cors({
-    origin: "http://localhost:5173", // 根据您的前端地址调整
+    origin: "https://my-todo-list-frontend-newbie-auntie-codes.onrender.com", // 根据您的前端地址调整
   })
 );
 app.use(express.json());
